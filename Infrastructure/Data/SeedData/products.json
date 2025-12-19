@@ -1,0 +1,92 @@
+[
+  {
+    "Name": "Classic Leather Handbag",
+    "Description": "Elegant handbag made from high-quality faux leather, suitable for daily use and special occasions.",
+    "Price": 450,
+    "PictureUrl": "/images/products/bag-classic1.png",
+    "Type": "Handbags",
+    "Brand": "Elegance",
+    "QuantityInStock": 40
+  },
+  {
+    "Name": "Black Shoulder Bag",
+    "Description": "Modern design with spacious interior, perfect for everyday outings.",
+    "Price": 380,
+    "PictureUrl": "/images/products/bag-shoulder1.png",
+    "Type": "Shoulder Bags",
+    "Brand": "Urban Chic",
+    "QuantityInStock": 55
+  },
+  {
+    "Name": "Brown Crossbody Bag",
+    "Description": "Lightweight and practical bag with adjustable long strap.",
+    "Price": 320,
+    "PictureUrl": "/images/products/bag-cross1.png",
+    "Type": "Crossbody Bags",
+    "Brand": "Daily Style",
+    "QuantityInStock": 62
+  },
+  {
+    "Name": "Pink Handbag",
+    "Description": "Feminine and stylish handbag with secure magnetic closure.",
+    "Price": 410,
+    "PictureUrl": "/images/products/bag-pink1.png",
+    "Type": "Handbags",
+    "Brand": "Femme",
+    "QuantityInStock": 28
+  },
+  {
+    "Name": "Women's Backpack",
+    "Description": "Practical backpack suitable for university or light travel.",
+    "Price": 500,
+    "PictureUrl": "/images/products/bag-backpack1.png",
+    "Type": "Backpacks",
+    "Brand": "Active Lady",
+    "QuantityInStock": 34
+  },
+  {
+    "Name": "Silver Evening Bag",
+    "Description": "Small elegant bag designed for parties and evening events.",
+    "Price": 290,
+    "PictureUrl": "/images/products/bag-evening1.png",
+    "Type": "Evening Bags",
+    "Brand": "Glamour",
+    "QuantityInStock": 18
+  },
+  {
+    "Name": "Beige Shoulder Bag",
+    "Description": "Minimalist design that matches various outfits and styles.",
+    "Price": 360,
+    "PictureUrl": "/images/products/bag-shoulder2.png",
+    "Type": "Shoulder Bags",
+    "Brand": "Soft Touch",
+    "QuantityInStock": 47
+  },
+  {
+    "Name": "Small Black Crossbody Bag",
+    "Description": "Perfect for quick errands with organized inner pockets.",
+    "Price": 270,
+    "PictureUrl": "/images/products/bag-cross2.png",
+    "Type": "Crossbody Bags",
+    "Brand": "Minimal",
+    "QuantityInStock": 70
+  },
+  {
+    "Name": "Luxury Women's Handbag",
+    "Description": "Premium quality handbag with elegant metallic details.",
+    "Price": 650,
+    "PictureUrl": "/images/products/bag-luxury1.png",
+    "Type": "Handbags",
+    "Brand": "Luxury Line",
+    "QuantityInStock": 12
+  },
+  {
+    "Name": "Summer Fabric Tote Bag",
+    "Description": "Lightweight tote bag ideal for summer trips and vacations.",
+    "Price": 220,
+    "PictureUrl": "/images/products/bag-summer1.png",
+    "Type": "Tote Bags",
+    "Brand": "Summer Mood",
+    "QuantityInStock": 80
+  }
+]
