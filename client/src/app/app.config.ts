@@ -7,17 +7,17 @@ import { provideAnimationsAsync } from '@angular/platform-browser/animations/asy
 import { errorInterceptor } from './core/interceptors/error-interceptor';
 import { loadingInterceptor } from './core/interceptors/loading-interceptor';
 import { lastValueFrom } from 'rxjs';
-// import { InitService } from './core/services/init-service';
+import { Init } from './core/services/init';
 // import { authInterceptor } from './core/interceptors/auth-interceptor';
 
-// function initializeApp(initService: InitService) {
-//   return () => lastValueFrom(initService.init()).finally(() => {
-//     const splash = document.getElementById('initial-splash');
-//     if (splash) {
-//       splash.remove();
-//     }
-//   })
-// }
+ function initializeApp(initService: Init) {
+   return () => lastValueFrom(initService.init()).finally(() => {
+     const splash = document.getElementById('initial-splash');
+     if (splash) {
+       splash.remove();
+     }
+   })
+ }
 
 export const appConfig: ApplicationConfig = {
   providers: [
@@ -30,12 +30,12 @@ export const appConfig: ApplicationConfig = {
       loadingInterceptor,
       // authInterceptor
     ])),
-    // {
-    //   provide: APP_INITIALIZER,
-    //   useFactory: initializeApp,
-    //   multi: true,
-    //   deps: [InitService]
-    // }
+    {
+      provide: APP_INITIALIZER,
+      useFactory: initializeApp,
+      multi: true,
+      deps: [Init]
+    }
   ]
 }; 
 

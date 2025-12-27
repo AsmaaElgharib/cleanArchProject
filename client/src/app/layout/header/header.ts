@@ -28,4 +28,6 @@ import { MatDivider } from '@angular/material/divider';
 })
 export class Header {
    busyService = inject(Busy);
+   cartService = inject(CartService);
+   router = inject(Router);
 }
