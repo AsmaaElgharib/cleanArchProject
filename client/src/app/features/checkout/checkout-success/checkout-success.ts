@@ -1,7 +1,7 @@
 import { Component, inject, OnDestroy } from '@angular/core';
 import { MatButton } from '@angular/material/button';
 import { RouterLink } from '@angular/router';
-import { SignalrService } from '../../../core/services/signalr-service';
+import { Signalr } from '../../../core/services/signalr';
 import { MatProgressSpinnerModule } from '@angular/material/progress-spinner';
 import { CurrencyPipe, DatePipe, NgIf } from '@angular/common';
 import { AddressPipe } from '../../../shared/pipes/address-pipe';
@@ -24,7 +24,7 @@ import { OrderService } from '../../../core/services/order-service';
   styleUrl: './checkout-success.scss',
 })
 export class CheckoutSuccess {
-  signalrService = inject(SignalrService);
+  signalrService = inject(Signalr);
   private orderService = inject(OrderService);
 
   ngOnDestroy(): void {
