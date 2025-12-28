@@ -26,22 +26,18 @@ import { OrderService } from '../../core/services/order-service';
     MatButton,
     RouterLink,
     MatCheckboxModule,
-    //CheckoutDelivery,
-    //CheckoutReview,
+    CheckoutDelivery,
+    CheckoutReview,
     CurrencyPipe,
     JsonPipe,
-    MatProgressSpinnerModule
-  ],
+    MatProgressSpinnerModule,
+    CheckoutDelivery,
+    CheckoutReview
+],
   templateUrl: './checkout.html',
   styleUrl: './checkout.scss',
 })
 export class Checkout implements OnInit, OnDestroy{
-  ngOnDestroy(): void {
-    throw new Error('Method not implemented.');
-  }
-  ngOnInit(): void {
-    throw new Error('Method not implemented.');
-  }
   private stripeService = inject(StripeService);
   private snackbar = inject(Snackbar);
   private router = inject(Router);
