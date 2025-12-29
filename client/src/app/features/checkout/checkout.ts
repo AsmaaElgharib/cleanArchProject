@@ -29,7 +29,6 @@ import { OrderService } from '../../core/services/order-service';
     CheckoutDelivery,
     CheckoutReview,
     CurrencyPipe,
-    JsonPipe,
     MatProgressSpinnerModule,
     CheckoutDelivery,
     CheckoutReview

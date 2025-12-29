@@ -10,14 +10,15 @@ import { lastValueFrom } from 'rxjs';
 import { Init } from './core/services/init';
 import { authInterceptor } from './core/interceptors/auth-interceptor';
 
- function initializeApp(initService: Init) {
-   return () => lastValueFrom(initService.init()).finally(() => {
-     const splash = document.getElementById('initial-splash');
-     if (splash) {
-       splash.remove();
-     }
-   })
- }
+function initializeApp(initService: Init) {
+  return () => lastValueFrom(initService.init()).finally(() => {
+    const splash = document.getElementById('initial-splash');
+    if (splash) {
+      splash.remove();
+    }
+  })
+}
+
 
 export const appConfig: ApplicationConfig = {
   providers: [

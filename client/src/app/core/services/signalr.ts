@@ -13,7 +13,7 @@ export class Signalr {
 
   createHubConnection() {
     this.hubConnection = new HubConnectionBuilder()
-      .withUrl(this.hubUrl, {
+        .withUrl(this.hubUrl, {
         withCredentials: true
       })
       .withAutomaticReconnect()
